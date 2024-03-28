@@ -2,7 +2,7 @@
 
 
 
-![alt text](<Hola Fashion.png>)
+![Project Logo](./assents/images/hola-fashion.png)
 
 
 
