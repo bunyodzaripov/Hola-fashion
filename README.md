@@ -2,7 +2,7 @@
 
 
 
-![Project Logo](![alt text](<Hola Fashion.png>))
+(![alt text](<Hola Fashion.png>))
 
 
 
