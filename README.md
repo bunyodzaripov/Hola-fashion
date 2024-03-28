@@ -2,7 +2,7 @@
 
 
 
-![Project Logo](![alt text](<Hola Fashion.png>))
+![alt text](<Hola Fashion.png>)
 
 
 
@@ -26,7 +26,7 @@
 
 ### Introduction
 
-Hola fashion[https://hola-fashion.netlify.app/] is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
+Hola fashion[(https://hola-fashion.netlify.app/)] is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
 
 ### Features
 
@@ -124,7 +124,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 #### Acknowledgements
 Special thanks to our contributors and the open-source community.
 We use various open-source libraries and tools that greatly contribute to this project.
-Feel free to reach out to us at Hola Fashion[https://hola-fashion.netlify.app/] for any questions or support.
+Feel free to reach out to us at Hola Fashion[(https://hola-fashion.netlify.app/)] for any questions or support.
 
 Visit our website for more information about our services and solutions.
 
