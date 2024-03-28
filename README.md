@@ -2,7 +2,7 @@
 
 
 
-(![alt text](<Hola Fashion.png>))
+![alt text](<Hola Fashion.png>)
 
 
 
@@ -26,7 +26,7 @@
 
 ### Introduction
 
-Hola fashion[https://hola-fashion.netlify.app/] is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
+Hola fashion[(https://hola-fashion.netlify.app/)] is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
 
 ### Features
 
