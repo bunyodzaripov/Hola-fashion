@@ -31,6 +31,60 @@
 
 /* universal style */
 
+
+/* services styles*/
+.services-wrapper {
+    padding: 82px 0;
+    text-align: center;
+}
+
+.sub-title__intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.services-wrapper > h2 {
+    color: #E5A985;
+    margin-bottom: 76px;
+}
+
+.services-cards {
+    display: flex;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+}
+
+.services-card {
+    max-width: 351px;
+    height: 485px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color:  #FAE3D8;
+}
+
+.services-card img {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.services-card > p {
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 25px 56px;
+}
+
+.services-card:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #91916C;
+    box-shadow: 10px 10px 35px 2px #59380E1A;
+    transition: .3s;
+    transform: scale(1.1);
+}
+/* services styles*/
+
 /* Contact us style */
 #contact-us {
     background-color: #91916C;
