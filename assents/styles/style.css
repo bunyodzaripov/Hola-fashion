@@ -3,15 +3,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 .container {
+
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 16px;
     box-sizing: content-box;
 }
-
 .sub-title {
     font-family: "Nunito Sans", sans-serif;
     color: #91916C;
@@ -28,7 +32,208 @@
     font-weight: 700;
     font-size: 48px;
 }
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 48px;
+}
+.nav__list{
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+.item-link{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.28px;
+    color: #000000;
+    transition: 0.5s;
+}
+.item-link:hover{
+    color:#65653E;
+    text-underline-offset: 6px;
+    text-decoration: underline 2px solid #65653E;
+}
+#hero{
+    width: 100%;
+    min-height: 858px;
+}
+.hero-wrapper{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 36px;
+    gap: 96px;
+}
+.hero-wrapper > .hero-box >img{
+    width: 100%;
+    max-width: 544px;
+    min-height: 858px;
+}
+.hero-box{
+    width: 100%;
+    max-width: 50%;
+    min-height: 858px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-hero-box {
+    width: 100%;
+    max-width: 544px;
+   min-height:858px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.hero-box-content{
+    width: 100%;
+    max-width: 544px;
+    min-height: 858px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+}
+.second-hero-title{
+    display: none;
+    font-size: 90px;
+    color:transparent;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.hero-box-content:hover .second-hero-box{
+    
+    background-color:rgba(222, 220, 220, 0.23);
+}
+.hero-box-content:hover{
+    filter: blur(3px);
+}
+.hero-box-content:hover .second-hero-title{
+    color: black;
+    display: block;
+}
+.hero-title{
+    font-family: "Playfair Display", serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 77.84px;
+    width: 100%;
+    max-width: 580px;
+    max-height: 231px;
+    color: #E5A985;
+    margin-bottom: 39px;
+}
+.hero-text{
+    width: 100%;
+    max-width: 576px;
+    min-height: 101px;
+    font-size: 24px;
+    line-height: 41.04px;
+    color: #4A4747;
+    margin-bottom: 67px;
+}
+.hero-form{
+    display: flex;
+    gap: 15px;
+}
+.hero-email{
+    width: 100%;
+    max-width: 465px;
+    min-height: 58px;
+    border: 2px solid transparent;
+    outline: none;
+    padding: 16px 30px;
+    background-color: #E5E5E5;
+    font-size: 24px;
+    color: #4A4747;
+    transition: 0.5s;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: 700;
+    color: #C4C4C4;
+    line-height: 27.1px;
+}
+.hero-btn{
+    padding: 16px 22px;
+    border: 2px solid transparent;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #91916C;
+    font-size: 20px;
+    color: #fff;
+    font-weight:700;
+    transition: 1s;
+}
+.hero-email:hover{
+    background-color: #e5e5e59c;
+    border: 2px solid #C4C4C4;
+}
+.hero-btn:hover{
+    background-color: #96964e5a;
+    border: 2px solid #90906386;
+    color: #65653E;
+}
+#product{
+    width: 100%;
+    background-color: #E1E1C2;
+}
+.product-wrapper{
+    padding: 120px 0px 46px 0px;
+}
+.product-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-content > .title{
+    line-height: 66.72px;
+    width: 100%;
+    max-width: 727px;
+    text-align: center;
+    margin: 52px 0;
+    color: #65653E;
+}
+.product-image-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:46px ;
+}
+.lady-wrapper{
+    width: 100%;
+    max-width: 875px;
+    min-height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.lady-picture{
+    width: 100%;
+    max-width: 875px;
+    min-height: 500px;   
+}
+.prooduct-text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.8px;
+    color: #333333;
+    text-align: center;
+}
 /* universal style */
 
 
