@@ -314,7 +314,6 @@ header{
 
 .services-card {
     max-width: 351px;
-    height: 485px;
     border-radius: 20px;
     overflow: hidden;
     background-color:  #FAE3D8;
@@ -328,7 +327,8 @@ header{
 .services-card > p {
     font-size: 24px;
     font-family: "Nunito Sans", sans-serif;
-    padding: 25px 56px;
+    padding: 24px 56px;
+    min-height: 99px;
 }
 
 .services-card:hover {
@@ -338,6 +338,7 @@ header{
     box-shadow: 10px 10px 35px 2px #59380E1A;
     transition: .3s;
     transform: scale(1.1);
+
 }
 /* services styles*/
 
