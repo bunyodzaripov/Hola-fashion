@@ -10,7 +10,6 @@ html{
 }
 
 .container {
-
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 16px;
@@ -235,6 +234,58 @@ header{
     text-align: center;
 }
 /* universal style */
+
+
+/* Blog */
+#blog {
+    background-color: #FFEFE7;  
+    padding-top: 72px; 
+}
+
+.blog-title  {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#blog  .sub-title {
+    color:#BD957E;
+    border-color: #B28F79;
+    margin-bottom: 73px;
+}
+
+#blog  h2 {
+    color: #795744;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+ 
+.blog-card {
+    display: flex;
+    gap: 0 32px;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.blog__title-wrap {
+    width: 100%;
+    max-width: 167px;
+    font-size: 20px;
+    font-family: "Nunito Sans" sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+/* Blog */
 
 
 /* services styles*/
